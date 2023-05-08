@@ -6,20 +6,20 @@ table {
 
 table td,
 table th {
-    border: 1px solid #cad9ea;
-    color: #666;
+    border: 1px solid #9bc2cf;
+    color: #333;
     height: 30px;
 }
 
 table thead th {
-    background-color: #CCE8EB;
-    width: 100px;
+    background-color: #9bc2cf;
+    color: #fff;
 }
 
 table tr:nth-child(odd) {
-    background: #fff;
+    background: #f7fbfc;
 }
 
 table tr:nth-child(even) {
-    background: #F5FAFA;
+    background: #d8eaf2;
 }

@@ -1,26 +1,26 @@
 import './App.css';
-import holidy from './component/holidy';
+import holiday from './component/holiday';
 import hotel from './component/hotel';
 import weather from './component/weather';
 
 function App() {
   return (
     <>
-      year :
-      <input type="text" placeholder="eg. 2019, 2022" id="year"></input>
+      Year :
+      <input type="text" placeholder="eg. 2022" id="year"></input>
       <br/>
-      country :
-      <input type="text" placeholder="eg. CN, US" id="country"></input>
+      Country :
+      <input type="text" placeholder="eg. CN" id="country"></input>
       <br/>
-      <button onClick={holidy}>Search</button>
+      <button onClick={holiday}>Search Holiday</button>
       <table id="holidayTable"></table>
 
-      city :
-      <input type="text" placeholder='eg. new york' id="city"></input>
-      <input type="text" placeholder='eg. 2020-5-8' id="date"></input>
+      City :
+      <input type="text" placeholder='eg. london' id="city"></input>
+      <input type="text" placeholder='eg. 2022-6-1' id="date"></input>
       <br/>
-      <button onClick={hotel}>Hotel</button>
-      <button onClick={weather}>Weather</button>
+      <button onClick={hotel}>Search Hotel</button>
+      <button onClick={weather}>Search Weather</button>
 
       <table id="hotelTable"></table>
 
